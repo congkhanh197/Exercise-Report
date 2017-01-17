@@ -1,0 +1,347 @@
+\documentclass[a4paper]{article}
+%\usepackage{vntex}
+%\usepackage[english,vietnam]{babel}
+%\usepackage[utf8]{inputenc}
+%\usepackage[utf8]{inputenc}
+%\usepackage[francais]{babel}
+\usepackage{a4wide,amssymb,epsfig,latexsym,array,hhline,fancyhdr}
+\usepackage[utf8]{vietnam}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{multicol,longtable,amscd}
+\usepackage{diagbox}%Make diagonal lines in tables
+\usepackage{booktabs}
+\usepackage{alltt}
+\usepackage[framemethod=tikz]{mdframed}% For highlighting paragraph backgrounds
+\usepackage{caption,subcaption}
+\usepackage{xcolor}
+\usepackage{lastpage}
+\usepackage[lined,boxed,commentsnumbered]{algorithm2e}
+\usepackage{enumerate}
+\usepackage{color}
+\usepackage{graphicx}							% Standard graphics package
+\usepackage{array}
+\usepackage{tabularx, caption}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{rotating}
+\usepackage{graphics}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{epsfig}
+\usepackage{tikz}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usetikzlibrary{arrows,snakes,backgrounds}
+\usepackage[unicode]{hyperref}
+\hypersetup{urlcolor=blue,linkcolor=black,citecolor=black,colorlinks=true} 
+%\usepackage{pstcol} 								% PSTricks with the standard color package
+
+\newtheorem{theorem}{{\bf Định lý}}
+\newtheorem{property}{{\bf Tính chất}}
+\newtheorem{proposition}{{\bf Mệnh đề}}
+\newtheorem{corollary}[proposition]{{\bf Hệ quả}}
+\newtheorem{lemma}[proposition]{{\bf Bổ đề}}
+
+
+%\usepackage{fancyhdr}
+\setlength{\headheight}{40pt}
+\pagestyle{fancy}
+\fancyhead{} % clear all header fields
+\fancyhead[L]{
+ \begin{tabular}{rl}
+    \begin{picture}(25,15)(0,0)
+    \put(0,-8){\includegraphics[width=8mm, height=8mm]{Images/hcmut.png}}
+    %\put(0,-8){\epsfig{width=10mm,figure=hcmut.eps}}
+   \end{picture}&
+	%\includegraphics[width=8mm, height=8mm]{hcmut.png} & %
+	\begin{tabular}{l}
+		\textbf{\bf \ttfamily Trường Đại Học Bách Khoa Tp.Hồ Chí Minh}\\
+		\textbf{\bf \ttfamily Khoa Khoa Học và Kỹ Thuật Máy Tính}
+	\end{tabular} 	
+ \end{tabular}
+}
+\fancyhead[R]{
+	\begin{tabular}{l}
+		\tiny \bf \\
+		\tiny \bf 
+	\end{tabular}  }
+\fancyfoot{} % clear all footer fields
+\fancyfoot[L]{\scriptsize \ttfamily Bài tập nhóm môn Mô hình hóa toán học - Niên khóa 2017-2018}
+\fancyfoot[R]{\scriptsize \ttfamily Trang {\thepage}/\pageref{LastPage}}
+\renewcommand{\headrulewidth}{0.3pt}
+\renewcommand{\footrulewidth}{0.3pt}
+
+
+%%%
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{3}
+\makeatletter
+\newcounter {subsubsubsection}[subsubsection]
+\renewcommand\thesubsubsubsection{\thesubsubsection .\@alph\c@subsubsubsection}
+\newcommand\subsubsubsection{\@startsection{subsubsubsection}{4}{\z@}%
+                                     {-3.25ex\@plus -1ex \@minus -.2ex}%
+                                     {1.5ex \@plus .2ex}%
+                                     {\normalfont\normalsize\bfseries}}
+\newcommand*\l@subsubsubsection{\@dottedtocline{3}{10.0em}{4.1em}}
+\newcommand*{\subsubsubsectionmark}[1]{}
+\makeatother
+
+\everymath{\color{blue}}%make in-line maths symbols blue to read/check easily
+
+\sloppy
+\captionsetup[figure]{labelfont={small,bf},textfont={small,it},belowskip=-1pt,aboveskip=-9pt}
+%space remove between caption, figure, and text
+\captionsetup[table]{labelfont={small,bf},textfont={small,it},belowskip=-1pt,aboveskip=7pt}
+%space remove between caption, table, and text
+
+%\floatplacement{figure}{H}%forced here float placement automatically for figures
+%\floatplacement{table}{H}%forced here float placement automatically for table
+%the following settings (11 lines) are to remove white space before or after the figures and tables
+%\setcounter{topnumber}{2}
+%\setcounter{bottomnumber}{2}
+%\setcounter{totalnumber}{4}
+%\renewcommand{\topfraction}{0.85}
+%\renewcommand{\bottomfraction}{0.85}
+%\renewcommand{\textfraction}{0.15}
+%\renewcommand{\floatpagefraction}{0.8}
+%\renewcommand{\textfraction}{0.1}
+\setlength{\floatsep}{5pt plus 2pt minus 2pt}
+\setlength{\textfloatsep}{5pt plus 2pt minus 2pt}
+\setlength{\intextsep}{10pt plus 2pt minus 2pt}
+
+\begin{document}
+
+\begin{titlepage}
+\begin{center}
+ĐẠI HỌC QUỐC GIA THÀNH PHỐ HỒ CHÍ MINH \\
+TRƯỜNG ĐẠI HỌC BÁCH KHOA \\
+KHOA KHOA HỌC - KỸ THUẬT MÁY TÍNH 
+\end{center}
+
+\vspace{1cm}
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=3cm]{Images/hcmut.png}
+\end{center}
+\end{figure}
+
+\vspace{1cm}
+
+
+\begin{center}
+\begin{tabular}{c}
+\multicolumn{1}{l}{\textbf{{\Large\hspace{1 cm} MÔ HÌNH HÓA TOÁN HỌC\hspace{1 cm} }}}\\
+~~\\
+\hline
+\\
+\multicolumn{1}{l}{\textbf{{\Huge\hspace{1.7 cm} Bài tập nhóm}}}\\
+\\
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{1.5cm}
+
+\begin{table}[h]
+\begin{tabular}{rrl}
+\hspace{5 cm} & GVHD: & Nguyễn An Khương\\
+
+& SV thực hiện: & Trần Công Khanh -- 1511503 \\
+& & Đỗ Đức Hoài -- 1511093 \\
+& & Võ Xuân Thuận -- ??????? \\
+& & Dương Minh Phương -- ??????? \\
+& & Nguyễn Tuyết Nga -- ??????? \\
+\end{tabular}
+\end{table}
+\vspace{1.5cm}
+\begin{center}
+{\footnotesize Tp. Hồ Chí Minh, Tháng 01/2017}
+\end{center}
+\end{titlepage}
+\newpage
+\textbf{{\Large Phần I: }}\\
+
+\textbf{{\large\hspace{0.5cm} 1. fallacy, contradiction, paradox, counterexample: }}
+
+{\large\hspace{1cm}- \textbf{Fallacy (Ngụy biện):} Mệnh đề có vẻ đúng, nhưng sai về mặc logic thì gọi là ngụy biện.
+	
+\ Ví dụ:
+\begin{align*}
+(p \vee q) \rightarrow r &= (p \rightarrow r) \vee (q \rightarrow r) \\
+\Leftrightarrow (\urcorner p\hspace{0.1cm} \wedge \urcorner q) \vee r  &= (\urcorner p \hspace{0.1cm} \vee \urcorner q) \vee r \hspace{0.5cm}(False)
+\end{align*}}
+{\large\hspace{1cm}- \textbf{Contradiction (Mâu thuẫn):} Mệnh đề có vẻ sai, nhưng đúng về mặc logic thì gọi là mâu thuẫn.
+	
+\ Ví dụ: 
+\begin{align*}
+p \rightarrow (q \rightarrow r) &= q \rightarrow (p \rightarrow r) \\
+\Leftrightarrow (\urcorner p \hspace{0.1cm} \vee \urcorner q) \vee r &= \urcorner q \hspace{0.1cm} \vee \urcorner p \vee r  \hspace{0.5cm} (True)
+\end{align*}}
+{\large\hspace{1cm}- \textbf{Paradox (Nghịch lý):} Mệnh đề mâu thuẫn với chính nó, có thể đúng hoặc sai.
+\ Ví dụ: Russell's paradox: Cho $R = \{x| x\notin x \}, $ thì $ R \in R \Leftrightarrow R \notin R$}
+
+{\large\hspace{1cm}- \textbf{Counterexample (Phản ví dụ):} là một ngoại lệ để chứng minh một mệnh đề nào đó sai.
+	
+\ Ví dụ: Để chứng minh tập hợp A không là con tập hơp B, ta cần tìm một phần tử x sao cho $x \in A$ và $x\notin B$. Phần tử x được gọi là một phản ví dụ.}
+
+\textbf{{\large\hspace{0.5cm} 2. premise, assumption, axiom, hypothesis, conjecture: }}
+
+{\large\hspace{1cm}- \textbf{Premise (Tiền đề)}: Tiền đề là tuyên bố hay ý tưởng để hình thành cơ sở lý luận cho việc chứng minh được hợp lí.
+	
+\ Ví dụ: $a = b \vdash a - b = 0$, "a = b" là tiền đề}
+
+{\large\hspace{1cm}- \textbf{Assumption (Giả thiết)}: Giả thiết là niềm tin hay cảm giác mệnh đề đúng, mặc dù không có bằng chứng.
+	
+\ Ví dụ: Giả thiết mệnh đề: "Phương trình $x^2 + bx + c = 0$ vô nghiệm "}
+
+{\large\hspace{1cm}- \textbf{Axiom (Tiên đề)}: Một mệnh đề được hầu hết mọi người cho là đúng.
+	
+\ Ví dụ: Mệnh đề: "Qua một điểm nằm ngoài đường thẳng chỉ vẽ được một và chỉ một đường thẳng song song với đường thẳng ban đầu"}
+
+{\large\hspace{1cm}- \textbf{Hypothesis (Giả thuyết)}: Ý tưởng hay lời giải thích cho một sự kiện được biết đến nhưng chưa được chứng minh. 
+	
+\ Ví dụ: Mệnh đề "Hố đen là có thật"}
+
+{\large\hspace{1cm}- \textbf{Conjecture (Phỏng đoán)}: Ý tưởng được hình thành bằng cách đoán, không dựa trên một kiến thức nhất định.
+	
+	\ Ví dụ: Mệnh đề " Năm năm nữa chiến tranh thế giới thứ 3 nổ ra."}
+
+\textbf{{\large\hspace{0.5cm} 3. Tautology (hằng đúng): }}{\large Một hằng đúng là một mệnh đề luôn có chân trị là đúng. Một hằng đúng cũng là một biểu thức mệnh đề luôn có chân trị là đúng bất chấp sự lựa chọn chân trị của biến mệnh đề.\\
+	
+	\hspace{1.5 cm} Ví dụ: $\urcorner p \vee p$ là một hằng đúng.
+}\\
+
+\textbf{{\large\hspace{1 cm} Valid (hợp lệ): }}
+{\large A proposition which is true regardless of the truth values of its atomic propositions is called a tautology, and the proposition is said to be valid.\\
+	
+	\hspace{1.5 cm} Ví dụ: mệnh đề $\urcorner p \vee p$ hợp lệ.}\\
+
+\textbf{{\large\hspace{1 cm} Contradiction (hằng sai): }}{\large Một hằng sai là một mệnh đề luôn có chân trị là sai.Một hằng sai cũng là một biểu thức mệnh đề luôn có chân trị là sai bất chấp sự lựa chọn chân trị của biến mệnh đề.\\
+	
+	\hspace{1.5 cm} Ví dụ: $\urcorner p \wedge p$ là một hằng sai.}\\
+
+\textbf{{\large\hspace{1 cm} Satisfiable (thỏa được): }}
+{\large Given a formula $\varphi$ in propositional logic, we say that $\varphi$ is satisfiable if it has a valuation in which is evaluates to T.\\
+	
+	\hspace{1.5 cm} Example: The formula $p \vee q \rightarrow p$ is satisfiable since it computes T if we
+	assign T to p.}\\
+
+\textbf{{\large\hspace{0.5 cm} 4. Soundness (phi mâu thuẫn): }}
+{\large All theorems that can be proved in the logical system are true.\\
+	
+	\hspace{1.5 cm} Example: Let $\phi_{1},\phi_{2}, . . . , \phi_{n}$ and $\psi$ be propositional logic formulas. If $\phi_{1},\phi_{2}, . . . , \phi_{n} \vdash \psi$ is valid, then $\phi_{1},\phi_{2}, . . . , \phi_{n} \models \psi$ holds.}\\
+
+\textbf{{\large\hspace{1 cm} Completeness (tính đầy đủ): }}
+{\large All true statements can be proved in the logical system.\\
+	
+	\hspace{1.5 cm} Example: Let $\phi_{1},\phi_{2}, . . . , \phi_{n}$ and $\psi$ be propositional logic formulas. Whenever $\phi_{1},\phi_{2}, . . . , \phi_{n} \models \psi$ holds, then there exists a natural deduction proof for the sequent $\phi_{1},\phi_{2}, . . . , \phi_{n} \vdash \psi$.}
+
+\newpage
+
+\textbf{{\Large Phần III: }}
+\\
+
+\textbf{\large\hspace{0.5cm} Exercise 1.1:}
+
+\textbf{\large\hspace{1cm} 2d)}{\large\hspace{0.5cm}
+	$	p \vee (\urcorner q \rightarrow p \wedge r) = p \vee (\urcorner q \rightarrow( p \wedge r))$}
+
+\textbf{\large\hspace{1cm} 2g)}{\large\hspace{0.5cm}Why is the expression $p \vee q \wedge r$ problematic?
+
+\hspace{1cm} Vì 2 phép hội và phép tuyển có cùng độ ưu tiên nhưng mang ý nghĩa khác nhau, để cùng nhau không có phân biệt bằng ngoặc dễ gây nhầm lẫn.}
+
+\textbf{\large\hspace{0.5cm} Exercise 1.2:}
+
+\textbf{\large\hspace{1cm} 1d) We prove the validity of	$p \rightarrow (p \rightarrow q), p \vdash q$ by}
+{\large
+$$1 \hspace{2 cm} p \rightarrow (p \rightarrow q) \hspace{1 cm} premise$$ $$2 \hspace{2 cm}  p  \hspace{3 cm} premise$$ $$3 \hspace{2 cm} p\rightarrow q \hspace{1.8 cm} \longrightarrow e\hspace{0.1 cm} 1,2$$ $$4 \hspace{2 cm} q \hspace{2.7 cm} \longrightarrow e\hspace{0.1 cm} 1,3$$}
+
+\textbf{\large\hspace{1cm} 1g) We prove the validity of	$p \vdash q \rightarrow (p \wedge q)$ by}
+{\large $$1 \hspace{2 cm} p \hspace{3 cm} premise$$
+$$\begin{array}{|c|} 
+\hline
+\textcolor{black}{2 \hspace{2 cm} q \hspace{2.4 cm} assumption}\\
+\textcolor{black}{3 \hspace{2 cm} p \wedge q \hspace{2.1 cm} \longrightarrow i \hspace{0.1 cm} 1,2}\\
+\hline
+\end{array}$$
+$$4 \hspace{2 cm} q \rightarrow (p \wedge q) \hspace{1 cm} \longrightarrow i\hspace{0.1 cm} 2,3$$}
+
+\textbf{\large\hspace{1cm} 1m) We prove the validity of	$p \vee q \vdash r \rightarrow (p \vee q) \wedge r$ by}
+{\large$$1 \hspace{2 cm} p \vee q \hspace{3 cm} premise$$
+$$\begin{array}{|c|} 
+\hline
+\textcolor{black}{2 \hspace{2 cm} r \hspace{3 cm} assumption}\\
+\textcolor{black}{3 \hspace{2 cm} (p \vee q) \wedge r \hspace{1.7 cm} \longrightarrow i \hspace{0.1 cm} 1,2}\\
+\hline
+\end{array}$$
+$$4 \hspace{2 cm} r \rightarrow (p \vee q) \wedge r \hspace{1 cm} \longrightarrow i\hspace{0.1 cm} 2,3$$}
+
+\textbf{{\large\hspace{1 cm} 1q) We prove the validity of $\vdash q \rightarrow (p \rightarrow (p \rightarrow (q \rightarrow p)))$ by}}
+{\large $$\begin{array}{|c|}
+\hline 
+\textcolor{black}{1 \hspace{2 cm} q \hspace{4.3 cm} assumption}\\ 
+\begin{array}{|c|}
+\hline 
+\textcolor{black}{2 \hspace{2 cm} p \hspace{4.3 cm} assumption} \\ 
+\textcolor{black}{3 \hspace{2 cm} q \rightarrow p \hspace{3.8 cm} \longrightarrow i \hspace{0.1 cm}1,2} \\ 
+\textcolor{black}{4 \hspace{2 cm} p \rightarrow (q \rightarrow p) \hspace{2.6 cm} \longrightarrow i \hspace{0.1 cm}2,3} \\ 
+\textcolor{black}{5 \hspace{2 cm} p \rightarrow (p \rightarrow (q \rightarrow p)) \hspace{1.4 cm} \longrightarrow i \hspace{0.1 cm}2,4} \\ 
+\hline 
+\end{array} \\
+\\
+\hline
+\end{array} \\$$ $$\textcolor{black}{6 \hspace{2 cm} q \rightarrow (p \rightarrow (p \rightarrow (q \rightarrow p))) \hspace{0.2 cm} \longrightarrow i \hspace{0.1 cm}1,5} \\ $$}
+
+
+\textbf{{\large\hspace{1 cm} 1u) We prove the validity of $p \rightarrow q \vdash \urcorner q \rightarrow \urcorner p$ by}}
+{\large $$1 \hspace{2 cm} p \rightarrow q \hspace{2 cm} premise$$ 
+$$\begin{array}{|c|}
+\hline 
+\textcolor{black}{2 \hspace{2 cm} \urcorner q \hspace{2 cm} assumption}\\ 
+
+\textcolor{black}{3 \hspace{2 cm} \urcorner p \hspace{2.7 cm} MT\hspace{0.1 cm} 1,2}\\ 
+\hline
+\end{array}$$ $$4 \hspace{2 cm} \urcorner q \rightarrow \urcorner p \hspace{1.1 cm} \longrightarrow i\hspace{0.1 cm} 2-3$$}\\
+
+\textbf{{\large\hspace{1 cm} 1w) We prove the validity of $r,p \rightarrow (r \rightarrow q) \vdash p \rightarrow (q\wedge r)$ by}}
+{\large $$1 \hspace{2 cm} r \hspace{3 cm} premise$$ $$2 \hspace{2 cm} p \rightarrow (r \rightarrow q) \hspace{1 cm} premise$$
+$$\begin{array}{|c|}
+\hline 
+\textcolor{black}{3 \hspace{2 cm} p \hspace{2.3 cm} assumption}\\ 
+
+\textcolor{black}{4 \hspace{2 cm} r \rightarrow q \hspace{1.8 cm} \longrightarrow e\hspace{0.1 cm} 3,2}\\ 
+
+\textcolor{black}{5 \hspace{2 cm} q \hspace{2.6 cm} \longrightarrow e\hspace{0.1 cm} 1,4}\\ 
+\hline
+\end{array}$$ $$6 \hspace{2 cm}  q \wedge r \hspace{2.4 cm} \wedge i\hspace{0.1 cm} 5,1$$ $$7 \hspace{2 cm} p \rightarrow (q\wedge r) \hspace{0.4 cm} \longrightarrow i\hspace{0.1 cm} 3-6$$}\\
+
+\textbf{{\large\hspace{1 cm} 3a) We prove the validity of $\urcorner p \rightarrow p \vdash p$ by}}
+{\large $$1 \hspace{2 cm} \urcorner p \rightarrow p \hspace{1.8 cm} premise$$ 
+$$\begin{array}{|c|}
+\hline 
+\textcolor{black}{2 \hspace{2 cm} \urcorner p \hspace{2 cm} assumption}\\
+\hline
+\end{array}$$ $$3 \hspace{2 cm}  p \hspace{2.2 cm} \longrightarrow e\hspace{0.1 cm} 2-1$$}
+
+\newpage
+
+\textbf{{\large\hspace{1 cm} 3b) We prove the validity of $\urcorner p \vdash p \rightarrow q$ by}}
+{\large $$1 \hspace{2 cm} \urcorner p \hspace{2.7 cm} premise$$ 
+$$\begin{array}{|c|}
+\hline 
+\textcolor{black}{2 \hspace{2 cm} p \hspace{2.2 cm} assumption}\\
+
+\textcolor{black}{3 \hspace{2 cm} \perp \hspace{3 cm} \urcorner e \hspace{0.1 cm} 2,1}\\
+
+\textcolor{black}{4 \hspace{2 cm} q \hspace{3.3 cm} \perp e \hspace{0.1 cm} 3}\\
+\hline
+\end{array}$$ $$5 \hspace{2 cm} p \rightarrow q \hspace{1.4 cm} \longrightarrow i \hspace{0.1 cm} 2-4$$}\\
+
+\textbf{\large\hspace{0.5cm} Exercise 1.4:}
+
+\textbf{\large\hspace{0.5cm} Exercise 1.5:}
+\end{document}
