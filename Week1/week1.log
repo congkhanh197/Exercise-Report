@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.1.13)  18 JAN 2017 14:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.1.13)  18 JAN 2017 23:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -59,18 +59,10 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 95.
+Package graphics Info: Driver file: dvips.def on input line 95.
 
-(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count87
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvips.def
+File: dvips.def 2015/12/30 v3.0k Driver-dependent file (DPC,SPQR)
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
@@ -613,13 +605,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count88
+\inf@bad=\count87
 LaTeX Info: Redefining \frac on input line 199.
-\uproot@=\count89
-\leftroot@=\count90
+\uproot@=\count88
+\leftroot@=\count89
 LaTeX Info: Redefining \overline on input line 297.
-\classnum@=\count91
-\DOTSCASE@=\count92
+\classnum@=\count90
+\DOTSCASE@=\count91
 LaTeX Info: Redefining \ldots on input line 394.
 LaTeX Info: Redefining \dots on input line 397.
 LaTeX Info: Redefining \cdots on input line 518.
@@ -628,15 +620,15 @@ LaTeX Info: Redefining \cdots on input line 518.
 \big@size=\dimen111
 LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
-\macc@depth=\count93
-\c@MaxMatrixCols=\count94
+\macc@depth=\count92
+\c@MaxMatrixCols=\count93
 \dotsspace@=\muskip10
-\c@parentequation=\count95
-\dspbrk@lvl=\count96
+\c@parentequation=\count94
+\dspbrk@lvl=\count95
 \tag@help=\toks20
-\row@=\count97
-\column@=\count98
-\maxfields@=\count99
+\row@=\count96
+\column@=\count97
+\maxfields@=\count98
 \andhelp@=\toks21
 \eqnshift@=\dimen112
 \alignsep@=\dimen113
@@ -665,14 +657,14 @@ Package: amsthm 2015/03/04 v2.20.2
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2015/08/19 v1.8n multicolumn formatting (FMi)
-\c@tracingmulticols=\count100
+\c@tracingmulticols=\count99
 \mult@box=\box28
 \multicol@leftmargin=\dimen118
-\c@unbalance=\count101
-\c@collectmore=\count102
-\doublecol@number=\count103
-\multicoltolerance=\count104
-\multicolpretolerance=\count105
+\c@unbalance=\count100
+\c@collectmore=\count101
+\doublecol@number=\count102
+\multicoltolerance=\count103
+\multicolpretolerance=\count104
 \full@width=\dimen119
 \page@free=\dimen120
 \premulticols=\dimen121
@@ -703,14 +695,14 @@ Package: multicol 2015/08/19 v1.8n multicolumn formatting (FMi)
 \@tempa=\box49
 \@tempa=\box50
 \@tempa=\box51
-\c@columnbadness=\count106
-\c@finalcolumnbadness=\count107
+\c@columnbadness=\count105
+\c@finalcolumnbadness=\count106
 \last@try=\dimen124
 \multicolovershoot=\dimen125
 \multicolundershoot=\dimen126
 \mult@nat@firstbox=\box52
 \colbreak@box=\box53
-\mc@col@check@num=\count108
+\mc@col@check@num=\count107
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
@@ -718,16 +710,16 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LTright=\skip63
 \LTpre=\skip64
 \LTpost=\skip65
-\LTchunksize=\count109
+\LTchunksize=\count108
 \LTcapwidth=\dimen127
 \LT@head=\box54
 \LT@firsthead=\box55
 \LT@foot=\box56
 \LT@lastfoot=\box57
-\LT@cols=\count110
-\LT@rows=\count111
-\c@LT@tables=\count112
-\c@LT@chunks=\count113
+\LT@cols=\count109
+\LT@rows=\count110
+\c@LT@tables=\count111
+\c@LT@chunks=\count112
 \LT@p@ftn=\toks30
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amscd.sty
@@ -746,11 +738,11 @@ Package: pict2e 2016/02/05 v0.3b Improved picture commands (HjG,RN,JT)
 (/usr/share/texlive/texmf-dist/tex/latex/pict2e/pict2e.cfg
 File: pict2e.cfg 2016/02/05 v0.1u pict2e configuration for teTeX/TeXLive
 )
-Package pict2e Info: Driver file: pdftex.def on input line 119.
-Package pict2e Info: Driver file for pict2e: p2e-pdftex.def on input line 121.
+Package pict2e Info: Driver file: dvips.def on input line 119.
+Package pict2e Info: Driver file for pict2e: p2e-dvips.def on input line 121.
 
-(/usr/share/texlive/texmf-dist/tex/latex/pict2e/p2e-pdftex.def
-File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
+(/usr/share/texlive/texmf-dist/tex/latex/pict2e/p2e-dvips.def
+File: p2e-dvips.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
 )
 \pIIe@GRAPH=\toks32
 \@arclen=\dimen131
@@ -763,19 +755,19 @@ Package: fp 1995/04/02
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
 (/usr/share/texlive/texmf-dist/tex/latex/fp/defpattern.sty
 Package: defpattern 1994/10/12
-\actioncount=\count114
+\actioncount=\count113
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-basic.sty
 Package: fp-basic 1996/05/13
-\FP@xs=\count115
-\FP@xia=\count116
-\FP@xib=\count117
-\FP@xfa=\count118
-\FP@xfb=\count119
-\FP@rega=\count120
-\FP@regb=\count121
-\FP@regs=\count122
-\FP@times=\count123
+\FP@xs=\count114
+\FP@xia=\count115
+\FP@xib=\count116
+\FP@xfa=\count117
+\FP@xfb=\count118
+\FP@rega=\count119
+\FP@regb=\count120
+\FP@regs=\count121
+\FP@times=\count122
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-addons.sty
 Package: fp-addons 1995/03/15
@@ -794,7 +786,7 @@ Package: fp-pas 1994/08/29
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-random.sty
 Package: fp-random 1995/02/23
-\FPseed=\count124
+\FPseed=\count123
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eqn.sty
 Package: fp-eqn 1995/04/03
@@ -827,12 +819,12 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \cmidrulesep=\dimen147
 \cmidrulekern=\dimen148
 \defaultaddspace=\dimen149
-\@cmidla=\count125
-\@cmidlb=\count126
+\@cmidla=\count124
+\@cmidlb=\count125
 \@aboverulesep=\dimen150
 \@belowrulesep=\dimen151
-\@thisruleclass=\count127
-\@lastruleclass=\count128
+\@thisruleclass=\count126
+\@lastruleclass=\count127
 \@thisrulewidth=\dimen152
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/alltt.sty
@@ -844,9 +836,15 @@ Package: mdframed 2013/07/01 1.9b: mdframed
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
 Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 
@@ -873,24 +871,24 @@ L3 Module: l3tl 2015/09/29 v6121 L3 Token lists
 L3 Module: l3str 2016/01/03 v6357 L3 Strings
 L3 Module: l3seq 2015/08/05 v5777 L3 Sequences and stacks
 L3 Module: l3int 2016/01/05 v6366 L3 Integers
-\c_max_int=\count129
-\l_tmpa_int=\count130
-\l_tmpb_int=\count131
-\g_tmpa_int=\count132
-\g_tmpb_int=\count133
+\c_max_int=\count128
+\l_tmpa_int=\count129
+\l_tmpb_int=\count130
+\g_tmpa_int=\count131
+\g_tmpb_int=\count132
 L3 Module: l3quark 2015/08/17 v5855 L3 Quarks
 L3 Module: l3prg 2015/11/01 v6216 L3 Control structures
-\g__prg_map_int=\count134
+\g__prg_map_int=\count133
 L3 Module: l3clist 2015/09/02 v5901 L3 Comma separated lists
 L3 Module: l3token 2015/11/11 v6249 L3 Experimental token manipulation
 L3 Module: l3prop 2016/01/05 v6366 L3 Property lists
 L3 Module: l3msg 2015/09/28 v6113 L3 Messages
 L3 Module: l3file 2015/12/03 v6317 L3 File and I/O operations
-\l_iow_line_count_int=\count135
-\l__iow_target_count_int=\count136
-\l__iow_current_line_int=\count137
-\l__iow_current_word_int=\count138
-\l__iow_current_indentation_int=\count139
+\l_iow_line_count_int=\count134
+\l__iow_target_count_int=\count135
+\l__iow_current_line_int=\count136
+\l__iow_current_word_int=\count137
+\l__iow_current_indentation_int=\count138
 L3 Module: l3skip 2016/01/05 v6366 L3 Dimensions and skips
 \c_zero_dim=\dimen153
 \c_max_dim=\dimen154
@@ -911,18 +909,18 @@ L3 Module: l3skip 2016/01/05 v6366 L3 Dimensions and skips
 \g_tmpa_muskip=\muskip15
 \g_tmpb_muskip=\muskip16
 L3 Module: l3keys 2015/11/17 v6284 L3 Key-value interfaces
-\g__keyval_level_int=\count140
-\l_keys_choice_int=\count141
+\g__keyval_level_int=\count139
+\l_keys_choice_int=\count140
 L3 Module: l3fp 2015/08/25 v5890 L3 Floating points
-\c__fp_leading_shift_int=\count142
-\c__fp_middle_shift_int=\count143
-\c__fp_trailing_shift_int=\count144
-\c__fp_big_leading_shift_int=\count145
-\c__fp_big_middle_shift_int=\count146
-\c__fp_big_trailing_shift_int=\count147
-\c__fp_Bigg_leading_shift_int=\count148
-\c__fp_Bigg_middle_shift_int=\count149
-\c__fp_Bigg_trailing_shift_int=\count150
+\c__fp_leading_shift_int=\count141
+\c__fp_middle_shift_int=\count142
+\c__fp_trailing_shift_int=\count143
+\c__fp_big_leading_shift_int=\count144
+\c__fp_big_middle_shift_int=\count145
+\c__fp_big_trailing_shift_int=\count146
+\c__fp_Bigg_leading_shift_int=\count147
+\c__fp_Bigg_middle_shift_int=\count148
+\c__fp_Bigg_trailing_shift_int=\count149
 L3 Module: l3box 2015/08/09 v5822 L3 Experimental boxes
 \c_empty_box=\box61
 \l_tmpa_box=\box62
@@ -970,20 +968,19 @@ L3 Module: l3candidates 2016/01/14 v6376 L3 Experimental additions to l3kernel
 \l__coffin_scaled_width_dim=\dimen183
 L3 Module: l3luatex 2015/11/11 v6250 L3 Experimental LuaTeX-specific functions
 )
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
-File: l3pdfmode.def 2015/11/11 v6250 L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count151
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3dvips.def
+File: l3dvips.def 2015/11/11 v6250 L3 Experimental driver: dvips
 ))
 Package: xparse 2016/01/19 v6377 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count152
-\l__xparse_m_args_int=\count153
-\l__xparse_mandatory_args_int=\count154
-\l__xparse_processor_int=\count155
-\l__xparse_v_nesting_int=\count156
+\l__xparse_current_arg_int=\count150
+\l__xparse_m_args_int=\count151
+\l__xparse_mandatory_args_int=\count152
+\l__xparse_processor_int=\count153
+\l__xparse_v_nesting_int=\count154
 )
 (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count157
+\etb@tempcnta=\count155
 )
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/zref-abspage.sty
 Package: zref-abspage 2012/04/04 v2.24 Module abspage for zref (HO)
@@ -1000,12 +997,12 @@ Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package ifpdf Info: pdfTeX in PDF mode is not detected.
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
+Package pdftexcmds Info: \pdfdraftmode is ignored in DVI mode.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
@@ -1017,7 +1014,7 @@ Package zref Info: New property: page on input line 761.
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/atbegshi.sty
 Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 )
-\c@abspage=\count158
+\c@abspage=\count156
 Package zref Info: New property: abspage on input line 62.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/needspace/needspace.sty
@@ -1029,10 +1026,13 @@ Package: color 2016/01/03 v1.1b Standard LaTeX Color (DPC)
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package color Info: Driver file: pdftex.def on input line 143.
-)
+Package color Info: Driver file: dvips.def on input line 143.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2015/12/30 v3.0k Driver-dependent file (DPC,SPQR)
+))
 \mdf@templength=\skip72
-\c@mdf@globalstyle@cnt=\count159
+\c@mdf@globalstyle@cnt=\count157
 \mdf@skipabove@length=\skip73
 \mdf@skipbelow@length=\skip74
 \mdf@leftmargin@length=\skip75
@@ -1115,30 +1115,31 @@ ex
 \pgf@yc=\dimen193
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
-\c@pgf@counta=\count160
-\c@pgf@countb=\count161
-\c@pgf@countc=\count162
-\c@pgf@countd=\count163
+\c@pgf@counta=\count158
+\c@pgf@countb=\count159
+\c@pgf@countc=\count160
+\c@pgf@countd=\count161
 \t@pgf@toka=\toks37
 \t@pgf@tokb=\toks38
 \t@pgf@tokc=\toks39
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
-Driver file for pgf: pgfsys-pdftex.def
+Driver file for pgf: pgfsys-dvips.def
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
-File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvips.def
+File: pgfsys-dvips.def 2014/07/09  (rcs-revision 1.25)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
-f
-File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-postsc
+ript.def
+File: pgfsys-common-postscript.def 2008/10/01  (rcs-revision 1.22)
+\pgf@objectcount=\count162
 )))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
 tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count164
-\pgfsyssoftpath@bigbuffer@items=\count165
+\pgfsyssoftpath@smallbuffer@items=\count163
+\pgfsyssoftpath@bigbuffer@items=\count164
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
 tex
@@ -1149,10 +1150,9 @@ Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Driver file: dvips.def on input line 225.
 LaTeX Info: Redefining \color on input line 702.
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
 Package xcolor Info: Model `RGB' extended on input line 1353.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
@@ -1169,7 +1169,7 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen194
-\pgfmath@count=\count166
+\pgfmath@count=\count165
 \pgfmath@box=\box77
 \pgfmath@toks=\toks40
 \pgfmath@stack@operand=\toks41
@@ -1193,7 +1193,7 @@ tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
 thmetics.code.tex)))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count167
+\c@pgfmathroundto@lastzeros=\count166
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
 x
@@ -1231,7 +1231,7 @@ File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box78
 \pgf@hbox=\box79
 \pgf@layerbox@main=\box80
-\pgf@picture@serial@count=\count168
+\pgf@picture@serial@count=\count167
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
 ode.tex
@@ -1264,7 +1264,7 @@ File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen274
-\pgf@sys@shading@range@num=\count169
+\pgf@sys@shading@range@num=\count168
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
@@ -1321,7 +1321,7 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
 .code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count170
+\pgf@plot@mark@count=\count169
 \pgfplotmarksize=\dimen279
 )
 \tikz@lastx=\dimen280
@@ -1334,18 +1334,18 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikz@figbox@bg=\box84
 \tikz@tempbox=\box85
 \tikz@tempbox@bg=\box86
-\tikztreelevel=\count171
-\tikznumberofchildren=\count172
-\tikznumberofcurrentchild=\count173
-\tikz@fig@count=\count174
+\tikztreelevel=\count170
+\tikznumberofchildren=\count171
+\tikznumberofcurrentchild=\count172
+\tikz@fig@count=\count173
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count175
-\pgfmatrixcurrentcolumn=\count176
-\pgf@matrix@numberofcolumns=\count177
+\pgfmatrixcurrentrow=\count174
+\pgfmatrixcurrentcolumn=\count175
+\pgf@matrix@numberofcolumns=\count176
 )
-\tikz@expandcount=\count178
+\tikz@expandcount=\count177
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
@@ -1386,7 +1386,7 @@ File: md-frame-1.mdf 2013/07/01\ 1.9b: md-frame-1
 \mdf@horizontalspaceofbox=\skip136
 \mdfsubtitleheight=\skip137
 \mdfsubsubtitleheight=\skip138
-\c@mdfcountframes=\count179
+\c@mdfcountframes=\count178
 
 ****** mdframed patching \endmdf@trivlist
 
@@ -1402,10 +1402,10 @@ File: md-frame-1.mdf 2013/07/01\ 1.9b: md-frame-1
 . 
 . Defining command \mdtheorem with sig. ' O{} m o m o ' on line 701.
 .................................................
-\mdf@envdepth=\count180
-\c@mdf@env@i=\count181
-\c@mdf@env@ii=\count182
-\c@mdf@zref@counter=\count183
+\mdf@envdepth=\count179
+\c@mdf@env@i=\count180
+\c@mdf@env@ii=\count181
+\c@mdf@zref@counter=\count182
 Package zref Info: New property: mdf@pagevalue on input line 895.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
@@ -1422,7 +1422,7 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \caption@parindent=\dimen291
 \caption@hangindent=\dimen292
 )
-\c@ContinuedFloat=\count184
+\c@ContinuedFloat=\count183
 Package caption Info: longtable package is loaded.
 
 (/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
@@ -1430,15 +1430,15 @@ Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2016/02/20 v1.1-142 Sub-captions (AR)
-\c@subfigure=\count185
-\c@subtable=\count186
+\c@subfigure=\count184
+\c@subtable=\count185
 )
 (/usr/share/texlive/texmf-dist/tex/latex/lastpage/lastpage.sty
 Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
 Package: algorithm2e 2013/01/06 v5.00 algorithms environments
-\c@AlgoLine=\count187
+\c@AlgoLine=\count186
 \algocf@hangindent=\skip139
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
@@ -1483,9 +1483,9 @@ subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
 \algoheightrule=\skip154
 \algotitleheightruledefault=\skip155
 \algotitleheightrule=\skip156
-\c@algocfline=\count188
-\c@algocfproc=\count189
-\c@algocf=\count190
+\c@algocfline=\count187
+\c@algocfproc=\count188
+\c@algocf=\count189
 \algocf@algoframe=\box98
 \algocf@algobox=\box99
 ) (/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
@@ -1499,7 +1499,7 @@ Package: tabularx 2014/10/28 v2.10 `tabularx' package (DPC)
 \TX@old@col=\dimen301
 \TX@target=\dimen302
 \TX@delta=\dimen303
-\TX@cols=\count191
+\TX@cols=\count190
 \TX@ftn=\toks46
 )
 (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
@@ -1507,7 +1507,7 @@ Package: tabularx 2014/10/28 v2.10 `tabularx' package (DPC)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/rotating/rotating.sty
 Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
-\c@r@tfl@t=\count192
+\c@r@tfl@t=\count191
 \rotFPtop=\skip157
 \rotFPbot=\skip158
 \rot@float@box=\box100
@@ -1523,9 +1523,9 @@ Package ifvtex Info: VTeX not detected.
 (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count193
-\Gm@cntv=\count194
-\c@Gm@tempcnt=\count195
+\Gm@cnth=\count192
+\Gm@cntv=\count193
+\c@Gm@tempcnt=\count194
 \Gm@bindingoffset=\dimen305
 \Gm@wd@mp=\dimen306
 \Gm@odd@mp=\dimen307
@@ -1568,7 +1568,7 @@ e.tex
 \pgfdecoratedinputsegmentcompleteddistance=\dimen316
 \pgfdecoratedinputsegmentremainingdistance=\dimen317
 \pgf@decorate@distancetomove=\dimen318
-\pgf@decorate@repeatstate=\count196
+\pgf@decorate@repeatstate=\count195
 \pgfdecorationsegmentamplitude=\dimen319
 \pgfdecorationsegmentlength=\dimen320
 )
@@ -1626,15 +1626,15 @@ Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
 \@linkdim=\dimen321
-\Hy@linkcounter=\count197
-\Hy@pagecounter=\count198
+\Hy@linkcounter=\count196
+\Hy@pagecounter=\count197
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count199
+\Hy@SavedSpaceFactor=\count198
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -1653,7 +1653,7 @@ Package hyperref Info: Plain pages OFF on input line 4458.
 Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count266
+\c@Hy@tempcnt=\count199
 
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
@@ -1661,7 +1661,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
 \XeTeXLinkMargin=\dimen322
-\Fld@menulength=\count267
+\Fld@menulength=\count266
 \Field@Width=\dimen323
 \Fld@charsize=\dimen324
 Package hyperref Info: Hyper figures OFF on input line 6295.
@@ -1673,18 +1673,25 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count268
-\c@Item=\count269
-\c@Hfootnote=\count270
+\Hy@abspage=\count267
+\c@Item=\count268
+\c@Hfootnote=\count269
 )
 
-Package hyperref Message: Driver (autodetected): hpdftex.
+Package hyperref Message: Driver (default): hdvips.
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\HyAnn@Count=\count271
-\Fld@listcount=\count272
-\c@bookmark@seq@number=\count273
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hdvips.def
+File: hdvips.def 2012/11/06 v6.83m Hyperref driver for dvips
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pdfmark.def
+File: pdfmark.def 2012/11/06 v6.83m Hyperref definitions for pdfmark specials
+\pdf@docset=\toks49
+\pdf@box=\box104
+\pdf@toks=\toks50
+\pdf@defaulttoks=\toks51
+\HyField@AnnotCount=\count270
+\Fld@listcount=\count271
+\c@bookmark@seq@number=\count272
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
@@ -1692,12 +1699,12 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip159
-)
+))
 Package hyperref Info: Option `colorlinks' set `true' on input line 39.
-\c@theorem=\count274
-\c@property=\count275
-\c@proposition=\count276
-\c@subsubsubsection=\count277
+\c@theorem=\count273
+\c@property=\count274
+\c@proposition=\count275
+\c@subsubsubsection=\count276
 
 (./week1.aux)
 \openout1 = `week1.aux'.
@@ -1720,37 +1727,8 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 115.
 LaTeX Font Info:    ... okay on input line 115.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 115.
 LaTeX Font Info:    ... okay on input line 115.
- (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count278
-\scratchdimen=\dimen325
-\scratchbox=\box104
-\nofMPsegments=\count279
-\nofMParguments=\count280
-\everyMPshowfont=\toks49
-\MPscratchCnt=\count281
-\MPscratchDim=\dimen326
-\MPnumerator=\count282
-\makeMPintoPDFobject=\count283
-\everyMPtoPDFconversion=\toks50
-) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
-)
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
-
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
 \AtBeginShipoutBox=\box105
-
-ABD: EveryShipout initializing macros
+ ABD: EveryShipout initializing macros
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: rotating package is loaded.
@@ -1760,9 +1738,9 @@ Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             ! on input line 115.
 
 *geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
+*geometry* detected driver: dvips
 *geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
+* driver: dvips
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -1800,7 +1778,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count284
+\c@section@level=\count277
 )
 LaTeX Info: Redefining \ref on input line 115.
 LaTeX Info: Redefining \pageref on input line 115.
@@ -1810,15 +1788,27 @@ LaTeX Info: Redefining \nameref on input line 115.
 \@outlinefile=\write4
 \openout4 = `week1.out'.
 
- <Images/hcmut.png, id=7, 272.01625pt x 277.035pt>
-File: Images/hcmut.png Graphic file (type png)
 
-<use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png used on input line 128.
-(pdftex.def)             Requested size: 85.35826pt x 86.93253pt.
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+
+! LaTeX Error: Cannot determine size of graphic in Images/hcmut.png (no Boundin
+gBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.128 ...ludegraphics[width=3cm]{Images/hcmut.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: Images/hcmut.png Graphic file (type eps)
+<Images/hcmut.png>
 LaTeX Font Info:    Try loading font information for U+msa on input line 136.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 136.
@@ -1832,231 +1822,413 @@ LaTeX Font Info:    Try loading font information for U+lasy on input line 136.
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 ) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Images/hcmut.png>]
+]
 Underfull \hbox (badness 10000) in paragraph at lines 166--167
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 213--214
+Underfull \hbox (badness 10000) in paragraph at lines 186--187
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 215--217
+Underfull \hbox (badness 10000) in paragraph at lines 188--189
 
  []
 
-File: Images/hcmut.png Graphic file (type png)
-<use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png used on input line 218.
-(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
-LaTeX Font Info:    Try loading font information for T5+cmtt on input line 218.
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 192--193
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--195
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--197
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 198--199
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--201
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--203
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--205
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 206--207
+
+ []
+
+
+! LaTeX Error: Cannot determine size of graphic in Images/hcmut.png (no Boundin
+gBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.208 \ 
+        Ví dụ: Mệnh đề "Hố đen là có thật"}\\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: Images/hcmut.png Graphic file (type eps)
+<Images/hcmut.png>
+LaTeX Font Info:    Try loading font information for T5+cmtt on input line 208.
 
  (/usr/share/texlive/texmf-dist/tex/latex/vntex/t5cmtt.fd
 File: t5cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `T5/cmtt/bx/n' in size <10> not available
-(Font)              Font shape `T5/cmtt/m/n' tried instead on input line 218.
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.218 ...large\hspace{1 cm} Valid (hợp lệ): }}
-                                                   [1]
-Underfull \hbox (badness 10000) in paragraph at lines 218--220
+(Font)              Font shape `T5/cmtt/m/n' tried instead on input line 208.
+
+
+LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 208.
+
+[1]
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--222
+Underfull \hbox (badness 10000) in paragraph at lines 210--211
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 223--224
+Underfull \hbox (badness 10000) in paragraph at lines 212--213
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--226
+Underfull \hbox (badness 10000) in paragraph at lines 214--215
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--229
+Underfull \hbox (badness 10000) in paragraph at lines 216--218
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 230--232
+Underfull \hbox (badness 10000) in paragraph at lines 219--221
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 233--235
+Underfull \hbox (badness 10000) in paragraph at lines 222--223
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 236--237
+Underfull \hbox (badness 10000) in paragraph at lines 224--225
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--240
+Underfull \hbox (badness 10000) in paragraph at lines 226--227
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 243--244
+Underfull \hbox (badness 10000) in paragraph at lines 228--230
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 245--246
+Underfull \hbox (badness 10000) in paragraph at lines 231--233
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 247--249
+Underfull \hbox (badness 10000) in paragraph at lines 234--236
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--251
+Underfull \hbox (badness 10000) in paragraph at lines 237--238
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--253
+Underfull \hbox (badness 10000) in paragraph at lines 239--241
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 254--255
+! LaTeX Error: Cannot determine size of graphic in Images/hcmut.png (no Boundin
+gBox).
 
- []
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.243 
+      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-File: Images/hcmut.png Graphic file (type png)
-<use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png used on input line 255.
-(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
- [2]
-Underfull \hbox (badness 10000) in paragraph at lines 256--258
+File: Images/hcmut.png Graphic file (type eps)
+<Images/hcmut.png>
 
- []
+LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 243.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 259--260
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 261--263
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 264--265
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 244--245
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--268
+Underfull \hbox (badness 10000) in paragraph at lines 246--247
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--270
+Underfull \hbox (badness 10000) in paragraph at lines 248--250
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--273
+Underfull \hbox (badness 10000) in paragraph at lines 251--252
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 274--275
-
- []
-
-File: Images/hcmut.png Graphic file (type png)
-<use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png used on input line 276.
-(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
- [3]
-Underfull \hbox (badness 10000) in paragraph at lines 278--280
-
- []
-
-File: Images/hcmut.png Graphic file (type png)
-<use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png used on input line 341.
-(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
- [4]
-Underfull \hbox (badness 10000) in paragraph at lines 341--342
+Underfull \hbox (badness 10000) in paragraph at lines 253--254
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 354--355
+Underfull \hbox (badness 10000) in paragraph at lines 255--256
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 375--376
-
- []
-
-File: Images/hcmut.png Graphic file (type png)
-<use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png used on input line 377.
-(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
- [5]
-Underfull \hbox (badness 10000) in paragraph at lines 394--395
+Underfull \hbox (badness 10000) in paragraph at lines 257--259
 
  []
 
 
-AED: lastpage setting LastPage
-File: Images/hcmut.png Graphic file (type png)
-<use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png used on input line 399.
-(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
- [6]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 399.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 399.
- (./week1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 399.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 399.
-Package rerunfilecheck Info: File `week1.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
- ) 
-Here is how much of TeX's memory you used:
- 33279 strings out of 493029
- 609689 string characters out of 6136234
- 662824 words of memory out of 5000000
- 36246 multiletter control sequences out of 15000+600000
- 21013 words of font info for 58 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 67i,25n,76p,10425b,471s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/vntex/vnr/vnbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/vntex
-/vnr/vnr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vnr12.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vnr8.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/vntex/vnr/vntt10.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/vntex/vnr/vntt8.pfb>
-Output written on week1.pdf (7 pages, 163966 bytes).
-PDF statistics:
- 102 PDF objects out of 1000 (max. 8388607)
- 78 compressed objects within 1 object stream
- 9 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+Underfull \hbox (badness 10000) in paragraph at lines 260--261
 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 262--264
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 265--266
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 267--269
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 270--271
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 272--274
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
+
+ []
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 279.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 279--280
+
+ []
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 281.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 281--282
+
+ []
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 283.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--284
+
+ []
+
+
+! LaTeX Error: Cannot determine size of graphic in Images/hcmut.png (no Boundin
+gBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.285 $
+       \hspace{0.5 cm}\large\bullet$ $\models$:Nếu tất cả mệnh đề...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: Images/hcmut.png Graphic file (type eps)
+<Images/hcmut.png>
+
+LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 285.
+
+[3]
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 285.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 285--286
+
+ []
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 287.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--288
+
+ []
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 289.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 289--290
+
+ []
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 291.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 291--293
+
+ []
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 294.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 294--295
+
+ []
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 296.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 296--297
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--300
+
+ []
+
+
+! LaTeX Error: Cannot determine size of graphic in Images/hcmut.png (no Boundin
+gBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.350 \end{array} \\$$ 
+                       $$\textcolor{black}{6 \hspace{2 cm} q \rightarrow (p ...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: Images/hcmut.png Graphic file (type eps)
+<Images/hcmut.png>
+
+LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 350.
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 361--362
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 374--375
+
+ []
+
+
+! LaTeX Error: Cannot determine size of graphic in Images/hcmut.png (no Boundin
+gBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.394 \end{array}$$
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: Images/hcmut.png Graphic file (type eps)
+<Images/hcmut.png>
+
+LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 394.
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 395--396
+
+ []
+
+
+! LaTeX Error: Cannot determine size of graphic in Images/hcmut.png (no Boundin
+gBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.397 \newpage
+              
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to q
